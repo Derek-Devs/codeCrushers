@@ -9,7 +9,7 @@ import { PrimeNGConfig } from 'primeng/api';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-
+  title = 'codeCrushers';
   constructor(private primengConfig: PrimeNGConfig) {}
 
   ngOnInit() {
